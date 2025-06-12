@@ -149,3 +149,47 @@ During **post-exploitation**, the primary goal is typically to demonstrate the i
 ---
 
 ## Types of penetration testing
+
+**Web application penetration testing (WAPT)** - Using techniques such as SQL injection, cross-site scripting, and business logic errors that automated tools might miss.
+
+**Mobile application penetration testing** - Testing mobile apps
+
+**Social engineering penetration testing** - The art of manipulating basic human psychology to find human-based vulnerabilities and trick potential victims into doing things they may not otherwise do.
+
+**Network penetration testing (external and internal)** - Identifying the flaws in the targeted organization's systems, their networks (wired and wireless), and their networking devices such as switches and routers.
+
+**Cloud penetration testing** - Ensure that you have legal permission from the cloud provider and the customer who's hiring you for the service.
+
+**Physical penetration testing** - Testing security access control systems. Like security cameras and sensors, biometric authentication systems, doors and locks, security guards, etc.
+
+---
+
+## Phases of penetration testing
+
+**1. Reconnaissance** - Acquiring meaningful information about the target. It'll help to better understand the target's attack surface and develop/acquire specific exploits that are suitable for compromising targeted systems.
+
+**2. Scanning and enumeration** - To use a direct approach via active reconnaissance in engaging the target to obtain information that is not accessible via passive information-gathering techniques. This phase also involves profiling the targeted organization, its systems, and network infraestructure by sending specially crafted probes to the target.
+
+**3. Gaining access (exploitation)** - To craft an exploit or acquire one from online sources that is designed to compromise the security vulnerability of the target.
+
+**4. Maintaining access** - To attempt to implement additional backdoors on the compromised system to expand the foothold. Perform lateral movement on the network by compromising other systems and setting up backdoors for persistent access to the victim's network.
+
+**5. Covering your tracks** - To not leave any traces of the actor's presence on a compromised system or network.
+
+---
+
+## Cyber Kill Chain framework
+
+**1. Reconnaissance** - To create a profile of their targets, which contains IP addresses, operating systems, open service ports, running applications, security vulnerabilities, and any sensitive resources that may be unintentionally exposed that can increase the attack surface.
+
+**2. Weaponization** - The weapon (exploit) has to be especially crafted and tested to ensure it is successful when launched by the pentester. Once compromised, the pentester will create a persistent backdoor on the targeted system for remote access.
+
+**3. Delivery** - After creating the exploit (weapon), the threat actor or penetration tester has to use an attack vector as a method to deliver the exploit onto the targeted system. Like a USB Rubber Ducky.
+
+**4. Exploitation** - The attacker needs to ensure that when the exploit is executed, it is successful in taking advantage of the security vulnerability of the targeted system as intended.
+
+**5. Installation** - To create multiple persistent backdoor accesses to the compromised system.
+
+**6. Command and Control (C2)** - To create a communication channel between the compromised systems and a C2 server on the internet. This allows to centrally control a group of infected systems (zombies) in a collection of a botnet using a C2 server that is managed by the adversary.
+
+**7. Actions on objectives** - In this phase, blue team has failed and the attacker can complete the main objective of the attack.
