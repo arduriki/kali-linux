@@ -193,3 +193,19 @@ During **post-exploitation**, the primary goal is typically to demonstrate the i
 **6. Command and Control (C2)** - To create a communication channel between the compromised systems and a C2 server on the internet. This allows to centrally control a group of infected systems (zombies) in a collection of a botnet using a C2 server that is managed by the adversary.
 
 **7. Actions on objectives** - In this phase, blue team has failed and the attacker can complete the main objective of the attack.
+
+---
+---
+
+## Further reading
+
+[The Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+[Mitre Attack tactics](https://attack.mitre.org/tactics/enterprise/)
+[Penetration Testing Execution Standard (PTES)](http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines)
+[Payment Card Industry Data Security Standard (PCI DSS)](https://listings.pcisecuritystandards.org/documents/Penetration-Testing-Guidance-v1_1.pdf)
+[Penetration Testing Framework (PTF)](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
+[Technical Guide to Information Security Testing and Assessment](https://csrc.nist.gov/pubs/sp/800/115/final)
+[Open Source Security Testing Methodology Manual](https://www.isecom.org/OSSTMM.3.pdf)
+[OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+[OWASP Mobile Security Testing Guide](https://owasp.org/www-project-mobile-app-security/)
+[OWASP Firmware Security Testing Methodology](https://github.com/scriptingxss/owasp-fstm)
